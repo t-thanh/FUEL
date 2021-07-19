@@ -16,7 +16,7 @@ if(ENABLE_CUDA)
 #       -gencode arch=compute_50,code=sm_50;
 #       -gencode arch=compute_52,code=sm_52; 
 #       -gencode arch=compute_60,code=sm_60;
-      -gencode arch=compute_61,code=sm_61;
+      -gencode arch=compute_75,code=sm_75; #GeForce RTX 2070/2080 CUDA 10
   ) 
 
   SET(CUDA_PROPAGATE_HOST_FLAGS OFF)
